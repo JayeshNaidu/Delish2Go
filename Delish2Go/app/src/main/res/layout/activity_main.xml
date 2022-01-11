@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CEFF9800"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="253dp"
+        android:layout_height="100dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        android:textSize="72sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="108dp"
+        android:layout_height="56dp"
+        android:text="Login"
+        app:backgroundTint="#FFC107"
+        app:cornerRadius="10"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="118dp"
+        android:layout_height="27dp"
+        android:text="forgot password?"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="83dp"
+        android:layout_height="37dp"
+        android:text="reset"
+        app:backgroundTint="#FF9800"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="449dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
